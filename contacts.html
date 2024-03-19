@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: contacts ::</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <style>
+.header-navsection {
+                  position: fixed;
+                    z-index: 1;
+                    box-shadow:10px 7px 10px #000000 ;
+                  }
+                   
+                  input[type=text] {
+                    width:50% ;
+                    height:30px ;
+                    border: 2px solid #000000;
+                  }
+                 
+                  input[type=email] {
+                    width:50% ;
+                    height:30px ;
+                    border: 2px solid #000000;
+                  }
+                  input[type=password] {
+                    width:50% ;
+                    height:30px ;
+                    border: 2px solid #000000;
+                  }
+                  input[type=textarea] {
+                    width:50% ;
+                    height:30px ;
+                    border: 2px solid #000000;
+                  }
+
+
+    </style>
+</head>
+<body>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <div class="container-fluid header-navsection">
+        <div class="row" >
+            <div class="col-lg-12 ">
+                <div class="row navbar-light bg-light">
+                    <div class="col-lg-6">
+                <div class="nav-brand" >
+                    <a class="navbar-brand" href="#">
+                        <img src="images/menulogo.png" alt=""><span style="color:#27aeec;font-size: 45px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;margin-left: 10px;">CORPONE</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6  ">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav ">
+                      <ul class="navbar-nav">
+                        <li class="nav-item ">
+                          <a class="nav-link text-primary " href="home.html">HOME </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link  text-primary" href="firmprofile.html">FIRMPROFILE</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link  text-primary" href="services.html">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link  text-primary" href="projects.html">PROJECTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-primary" href="contacts.html">CONTACTS</a>
+                          </li>
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+<!-- Start Contacts -->
+<div class="container py-5">
+  <div class="row" >
+    <div class="col-lg-6"  style="margin-top:150px ;">
+      <form  >
+        <h1>contact form</h1>
+        <div class="form-group row"  style="padding-top: 30px;">
+          <label for="inputsubject" class="col-sm-2 col-form-label text-primary"><strong>Name</strong></label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputsubject">
+          </div>
+        </div>
+        <div class="form-group row  " >
+          <label for="inputEmail3" class="col-sm-2 col-form-label text-primary"> <strong>Email<span style="color: red;">*</span></strong></label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail3">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputPassword3" class="col-sm-2 col-form-label text-primary"><strong>Password</strong></label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword3">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputsubject" class="col-sm-2 col-form-label text-primary"><strong>Subject</strong></label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputsubject">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputsubject" class="col-sm-2 col-form-label text-primary"><strong>message</strong></label>
+          <div class="col-sm-10">
+            <textarea class="form-control " type="textarea" id="exampleFormControlTextarea1" rows="2" cols="10"></textarea> 
+          </div>
+        </div>
+        <button class="btn btn-primary text-right" type="submit">Send Message</button>
+       
+       
+      </form>
+    </div>
+    <div class="col-lg-6"  style="margin-top:150px ;">
+            <h1>Contact Info</h1>
+            <p style="padding-top: 30px;">Fermentum amet ridiculus augue vitae cubilia rhoncus erat mauris, nibh nostra tincidunt amet montes eros felis. Pulvinar malesuada tristique maecenas. Cum mattis venenatis potenti bibendum justo. Et consequat velit vel lectus justo. Hac habitant fames volutpat porta.</p>
+            <h5>Onhauser Allee 125E</h5>
+            <h5>10435 Berlin ,Germany</h5></br>
+            <h5>Phone No :- +49 25 737373</h5>
+            <h5>Fax no :- +49 25 252525</h5>
+            <h5>Email :- Email@marinaconsulting.com</h5>
+            
+    </div>
+  </div>
+</div>
+<!-- End Contacts -->
+
+ <!-- Start footer Section -->
+ <section>
+  <div class="container-fluid ">
+    <div class="row">
+      <div class="col-lg-12 px-0 bg-dark py-5">
+        <table class="table table-borderless table-dark my-5 py-5 px-0" style="padding-left: 30px;">
+  <thead  >
+    <tr style="color: #06a8f3;font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+      <th scope="col">NAVIGATION</th>
+      <th scope="col">SERVICES</th>
+      <th scope="col">ARCHIVES</th>
+      <th scope="col">RECENT POSTS </th>
+    </tr>
+  </thead>
+  <tbody >
+    <tr>
+      <th scope="row my-5"><a style="text-decoration: none;color: white;" href="services.html">Home</a></th>
+      <td>Client Searvices  </td>
+      <td>July 2014</td>
+      <td>Arenean Nonummy </td>
+      
+    </tr>
+    <tr>
+      <th scope="row my-0"><a style="text-decoration: none;color: white;" href="projects.html">FirmFrame</a></th>
+      <td style="font-size:20px ;"><a style="text-decoration: none;color: white;" href="#fistCarousel">Economic </a>Consulting   </td>
+      <td>Sep 2014</td>
+      <td>Hendrerit Mauselntes</td>
+      <td></td>
+    </tr>
+    
+     
+    
+    <tr>
+      <th scope="row"><a style="text-decoration: none;color: white;" href="projects.html">Services</a></th>
+      <td   style="font-size:20px ;"><a style="text-decoration: none;color: white;" href="#fistCarousel">Strategic Communications   </a></td>
+      <td>Dec 2014</td>
+      <td>Ulusm Duifusceras </td>
+      
+    </tr>
+    <tr>
+      <th scope="row"><a style="text-decoration: none;color: white;" href="services.html">Projects</a></th>
+      <td   style="font-size:20px ;"><a style="text-decoration: none;color: white;" href="#fistCarousel">Technology Consulting     </a></td>
+      <td>March 2015</td>
+      <td>Vitaeneque Turpisin </td>
+    
+    </tr>
+    <tr>
+      <th scope="row"><a style="text-decoration: none;color: white;" href="#fistCarousel">Contacts</a></th>
+      <td >Larry the Bird</td>
+      <td>June 2015</td>
+      <td>Praesent Pulvinar </td>
+    
+    </tr>
+  </tbody>
+</table>
+        <div class="footer-icons text-white text-center ">
+          <span style="font-size: 40px;margin-right: 10px;color: #fffcfc;"><i class="fa-brands fa-facebook"></i></span>
+          <span style="font-size: 40px;margin-left: 0px;color: #faf9f9;"> <i class="fa-brands fa-telegram"></i></span>
+          <span style="font-size: 40px;margin-left: 10px;color: #fcf9f9;"><i class="fa-brands fa-google-plus"></i></span></div>
+          <h6 style="color: white;text-align: center;padding-top: 20px;">Designed by KixGO Website Builder </h6>
+      </div>
+    </div>
+  </div>
+ </section>
+ 
+ <!-- End Footer Section-->
+</body>
+</html>
